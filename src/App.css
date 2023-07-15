@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Open+Sans:wght@300;500&display=swap');
+
+.container {
+  border: 2px solid black;
+  margin: 0 auto;
+  width: auto;
+  height: 490px;
+  margin: 70px 360px;
+  border-radius: 20px;
+  background-color: #0b131e;
+  border: none;
+  display: flex;
+  justify-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    margin: 70px 10px;
+  }
+}
+
+
+form>input {
+  margin: 30px 30px 0px 30px;
+  width: 17rem;
+  height: 20px;
+  padding: 5px;
+  background-color: #202b3b;
+  border: none;
+  color: #c4cad3;
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  padding-left: 10px;
+  font-size: 15px;
+}
+
+form>input:focus {
+  outline: none;
+}
+
+.place {
+  position: relative;
+  right: 30px;
+  height: 200px;
+}
+
+.place>p {
+  font-family: 'Open Sans', sans-serif;
+  color: #F0EFF3;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  width: 150px;
+  margin-left: 33px;
+  height: 42px
+}
+
+.temp {
+  font-family: 'Open Sans', sans-serif;
+  color: #F0EFF3;
+  letter-spacing: 2px;
+  font-weight: 500;
+  width: 220px;
+  text-align: center;
+  padding-top: 15px;
+  position: relative;
+  bottom: 23px;
+}
+
+.iconimg {
+  position: relative;
+  right: 23px
+}
+
+.temperature {
+  background-color: #202b3b;
+  height: 180px;
+  width: 370px;
+  border-radius: 15px;
+  margin: 20px 30px 0px 30px;
+}
+
+#cityname {
+  font-family: 'Open Sans', sans-serif;
+  color: #F0EFF3;
+  letter-spacing: 2px;
+  font-weight: 500;
+  width: 220px;
+  font-size: 30px;
+  height: auto;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: 20px;
+  height: 55px;
+
+}
+
+.right {
+  width: 200px;
+  border-radius: 15px;
+  margin: 30px 0px 30px 0px;
+}
+
+.icon {
+  margin: 10px 10px 10px -10px;
+}
+
+.weathertype {
+  font-family: 'Open Sans', sans-serif;
+  color: #c7c98f;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: auto;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -50px;
+}
+
+.day {
+  font-family: "Open Sans", sans-serif;
+  color: #c4cad3;
+  margin-left: -55px;
+  text-align: center;
+  margin-top: -17px;
+}
+
+.time {
+  font-family: "Open Sans", sans-serif;
+  color: #c4cad3;
+  text-align: center;
+  font-size: 10px;
+  margin-left: -25px;
+  margin-top: -10px;
+  width: 110px;
+  /* outline: 1px solid white; */
+  margin-right: 0px;
+  padding-left: 0px;
+}
+
+.weather {
+  background-color: #202b3b;
+  margin: 0px;
+  height: 220px;
+  border-radius: 17px;
+
+}
+
+.placeblock {
+  /* outline: 1px solid white; */
+  margin: 0px 30px 0px 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wind {
+
+  margin-top: 30px;
+  height: 180px;
+  border-radius: 17px;
+  background-color: #202b3b;
+}
+
+.temperature>h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #c4cad3;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 15px;
+  border-bottom: 1px solid #c4cad398;
+  width: 98px;
+  padding-bottom: 3px;
+  position: relative;
+  top: 15px;
+}
+
+
+
+.windblock {
+  display: flex;
+}
+
+
+
+.therm {
+  display: flex;
+  font-family: "Open Sans", monospace;
+  color: #F0EFF3;
+
+}
+
+.therm>div>p {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2px;
+  margin-left: -10px;
+}
+
+.therm>div>h3 {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-left: -10px;
+}
+
+.tempblock {
+  position: relative;
+  top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar {
+
+  width: 200px;
+  margin-left: 10px;
+  height: 200px;
+}
+
+.weather>h3 {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: #F0EFF3;
+  padding: 15px 25% 7px 25%;
+  border-bottom: 1px solid white;
+  margin-left: 20px;
+  width: 60px;
+  text-align: center;
+}
+
+.wind>h3 {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: #F0EFF3;
+  padding: 15px 25% 7px 25%;
+  border-bottom: 1px solid white;
+  margin-left: 20px;
+  width: 60px;
+  text-align: center;
+}
+
+.weather>p {
+  color: #F0EFF3;
+  font-family: "Open Sans", monospace;
+  font-weight: 300;
+  text-align: center;
+}
+
+.windblock {
+  margin-top: 6px;
+  margin-left: -10px;
+}
+
+.winddetails {
+  padding-top: 3px;
+  margin-left: -10px;
+}
+
+.windblock p {
+  color: #F0EFF3;
+  font-family: "Open Sans", monospace;
+  font-weight: 300;
+  padding: 5px 0px;
+  position: relative;
+  right: 5px
+}
